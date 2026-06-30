@@ -1,0 +1,38 @@
+# Build output
+/build/
+build/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Test / bench binaries
+qtx_tests
+oom_survival
+perf_microbench
+real_ggml_demo
+
+# Archives / packaging
+*.tar.gz
+*.zip
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# third_party/ggml_src is a git submodule (full ggml repo, ~23 MB) —
+# needed only for the optional real-ggml demo. Clone with --recursive,
+# or run: git submodule update --init --depth 1
+# The small third_party/ggml/ (headers + shim, ~180 KB) is committed
+# directly so the test suite builds WITHOUT the submodule.
