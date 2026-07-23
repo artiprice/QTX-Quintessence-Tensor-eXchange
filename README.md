@@ -305,8 +305,15 @@ The codec adapter is the natural extension point — contributions welcome.
 
 ## License
 
-[GNU AGPL v3.0](LICENSE) — © 2026 Mikhail Melik-Kazarian. If you build a
-network service on QTX, the AGPL network-use clause applies: you must make
-your corresponding source available to its users. If that doesn't fit your
-use case, open an issue to discuss. The `third_party/` ggml sources are
-MIT, used only as a decode-validation oracle.
+QTX is available under a dual-license model:
+
+- **Open source:** [GNU AGPL v3.0](LICENSE) (`AGPL-3.0-only`).
+- **Commercial:** a separate commercial license may be available for
+  proprietary products and use cases where AGPL compliance is not
+  suitable.
+
+See [LICENSING.md](LICENSING.md) for details and contact instructions.
+No commercial rights are granted without a separate written agreement.
+
+© 2026 Mikhail Melik-Kazarian. Third-party ggml materials under
+`third_party/` remain under the MIT License.
