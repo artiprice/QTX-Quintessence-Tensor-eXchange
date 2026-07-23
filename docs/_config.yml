@@ -1,0 +1,12 @@
+title: QTX
+description: A C++23 memory tier that quantizes idle tensors and keeps active ones hot.
+url: https://artiprice.github.io
+baseurl: /QTX-Quintessence-Tensor-eXchange
+repository: artiprice/QTX-Quintessence-Tensor-eXchange
+author: Mikhail Melik-Kazarian
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+exclude:
+  - development
+

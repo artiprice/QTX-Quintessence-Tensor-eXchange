@@ -18,6 +18,11 @@ any quantization format, including your own.*
 
 ---
 
+> **The story behind QTX:** [I built a memory tier that quantizes tensors
+> while they sleep](https://artiprice.github.io/QTX-Quintessence-Tensor-eXchange/)
+
+---
+
 ## The problem
 
 When you run many models or agents on one machine, most of their context
